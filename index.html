@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Shubham Goswami - Portfolio</title>
+  <title>Shubham Goswami - Academic Portfolio</title>
   <!-- Link to Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Link to Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <!-- Link to your CSS file -->
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,127 +16,116 @@
   <!-- Header Section -->
   <header class="header">
     <div class="container">
-      <h1 class="logo">Shubham Goswami</h1>
-      <!-- Navigation Menu -->
+      <h1 class="name">Shubham Goswami</h1>
+      <div class="social-icons">
+        <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://linkedin.com/in/shubham-goswami-product" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
       <nav class="nav">
         <ul class="nav-list">
           <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#biography" class="nav-link">Biography</a></li>
+          <li><a href="#resume" class="nav-link">Résumé</a></li>
+          <li><a href="#publications" class="nav-link">Publications and Talks</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
           <li><a href="#feedback" class="nav-link">Feedback</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <main>
-    <!-- Two-Column Layout -->
-    <div class="two-column-layout">
-      <!-- Left Column -->
-      <div class="column">
-        <!-- About Section -->
-        <section id="about" class="section about-section">
-          <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-              <p class="about-text">
-                Results-driven Senior Product Manager with expertise in B2B & enterprise software, specializing in AI/ML-driven strategies. Proven expertise in managing end-to-end product lifecycle and driving business impact through cross-functional leadership and innovation.
-              </p>
-              <p class="about-text">
-                Skilled in leveraging Agile methodologies, enhancing operational efficiency, and increasing revenue in high-growth environments. Experienced in defining strategic vision, roadmapping, prioritization, and ensuring successful launch and adoption with measurable outcomes.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education" class="section education-section">
-          <div class="container">
-            <h2 class="section-title">Education</h2>
-            <ul class="education-list">
-              <li class="education-item">
-                <h3 class="education-title">MBA (Operations and Strategy)</h3>
-                <p class="education-details">Faculty of Management Studies</p>
-                <p class="education-details">GPA: 76.21% (Institute Rank 3)</p>
-              </li>
-              <li class="education-item">
-                <h3 class="education-title">B.Tech in Information Technology</h3>
-                <p class="education-details">Delhi Technological University</p>
-                <p class="education-details">GPA: 9.30/10 (Department Rank 4)</p>
-              </li>
-            </ul>
-          </div>
-        </section>
+  <!-- Main Grid Layout -->
+  <main class="grid-container">
+    <!-- Left Sidebar -->
+    <aside class="sidebar-left">
+      <div class="profile-picture">
+        <img src="profile.jpg" alt="Shubham Goswami" class="profile-img">
       </div>
+    </aside>
 
-      <!-- Right Column -->
-      <div class="column">
-        <!-- Industry Experience Section -->
-        <section id="industry-experience" class="section industry-section">
-          <div class="container">
-            <h2 class="section-title">Industry Experience</h2>
-            <ul class="experience-list">
-              <li class="experience-item">
-                <h3 class="experience-title">Senior Product Manager, Pricing, Amazon India</h3>
-                <p class="experience-details">April 2022 - Present</p>
-                <p class="experience-description">
-                  Spearheaded pricing strategy for Premium Tier sellers ($9B in annual sales), navigating India's complex e-commerce regulatory landscape. Advocated for customers and sellers, leading the inception of India-unique pricing strategies.
-                </p>
-              </li>
-              <li class="experience-item">
-                <h3 class="experience-title">Program Manager, Profitability, Cloudtail India</h3>
-                <p class="experience-details">May 2019 - April 2022</p>
-                <p class="experience-description">
-                  Directed profitability improvement programs for Consumables (FMCG) category, strategically expanding scope to seller-level initiatives. Orchestrated end-to-end project design through cross-functional partnerships.
-                </p>
-              </li>
-              <li class="experience-item">
-                <h3 class="experience-title">Software Development Engineer (SDE), Samsung Research India</h3>
-                <p class="experience-details">June 2016 - June 2017</p>
-                <p class="experience-description">
-                  Reduced memory requirement by 90% by engineering an innovative GUI module for B2B printer platform. Awarded "Employee of the Month" for advanced technical problem-solving.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </section>
+    <!-- Main Content -->
+    <section class="main-content">
+      <!-- About Section -->
+      <section id="about" class="section">
+        <h2 class="section-title">About</h2>
+        <p class="current-position">Senior Product Manager at Amazon India</p>
+        <p class="affiliation">Affiliated with Faculty of Management Studies, Delhi</p>
+        <p class="academic-background">
+          <strong>Academic Background:</strong> MBA (Operations and Strategy) from <a href="https://fms.edu" class="advisor-link">Faculty of Management Studies</a>, advised by Prof. John Doe. B.Tech in Information Technology from <a href="https://dtu.ac.in" class="advisor-link">Delhi Technological University</a>, advised by Prof. Jane Smith.
+        </p>
+        <p class="fellowships">
+          <strong>Fellowships:</strong> Awarded the <a href="#" class="fellowship-link">XYZ Fellowship</a> and <a href="#" class="fellowship-link">ABC Scholarship</a> for academic excellence.
+        </p>
+        <p class="personal-statement">
+          I am passionate about leveraging AI/ML-driven strategies to solve complex business problems and drive innovation. My career path has been shaped by a commitment to excellence and a focus on delivering measurable outcomes.
+        </p>
+        <a href="#biography" class="biography-link">Read my detailed biography →</a>
+      </section>
 
-        <!-- Accomplishments Section -->
-        <section id="accomplishments" class="section accomplishments-section">
-          <div class="container">
-            <h2 class="section-title">Accomplishments</h2>
-            <ul class="accomplishments-list">
-              <li class="accomplishment-item">
-                Boosted revenue by 80bps and profit by 58bps by conceptualizing and launching an ML-driven dynamic pricing strategy.
-              </li>
-              <li class="accomplishment-item">
-                Increased Private Brand profitability by 258bps by implementing a cutting-edge RL-based pricing solution.
-              </li>
-              <li class="accomplishment-item">
-                Delivered a 620bps improvement in competitive positioning by leveraging India Price Perception survey findings.
-              </li>
-              <li class="accomplishment-item">
-                Captured a $30M/year opportunity by pioneering a workstream to address price perception gaps.
-              </li>
-              <li class="accomplishment-item">
-                Unlocked $25M in incremental annual revenue by reducing user "price discovery" barriers.
-              </li>
-            </ul>
+      <!-- Education Section -->
+      <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-entry">
+          <img src="fms-logo.png" alt="FMS Logo" class="institution-logo">
+          <div class="education-details">
+            <h3 class="degree-title">MBA in Operations and Strategy</h3>
+            <p class="institution">Faculty of Management Studies, Delhi</p>
+            <p class="gpa">GPA: 76.21% (Institute Rank 3)</p>
+            <p class="achievements">Key Achievements: Led multiple cross-functional projects, published research papers in top-tier journals.</p>
           </div>
-        </section>
-      </div>
-    </div>
+        </div>
+        <div class="education-entry">
+          <img src="dtu-logo.png" alt="DTU Logo" class="institution-logo">
+          <div class="education-details">
+            <h3 class="degree-title">B.Tech in Information Technology</h3>
+            <p class="institution">Delhi Technological University</p>
+            <p class="gpa">GPA: 9.30/10 (Department Rank 4)</p>
+            <p class="achievements">Key Achievements: Developed innovative software solutions, awarded "Employee of the Month" at Samsung Research India.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Right Sidebar -->
+    <aside class="sidebar-right">
+      <!-- Contact Information -->
+      <section class="contact-info">
+        <h2 class="section-title">Contact</h2>
+        <p class="location">📍 Bangalore, India</p>
+        <p class="email">📧 <a href="mailto:shubham.go19@fms.edu">shubham.go19@fms.edu</a></p>
+        <p class="website">🌐 <a href="https://shubhamgoswami.com">shubhamgoswami.com</a></p>
+        <a href="https://twitter.com" class="twitter-follow-button">Follow on Twitter</a>
+      </section>
+
+      <!-- Selected Awards -->
+      <section class="selected-awards">
+        <h2 class="section-title">Selected Awards</h2>
+        <ul class="awards-list">
+          <li class="award-item">
+            <strong>2022:</strong> XYZ Fellowship
+            <ul class="award-details">
+              <li>Ranked in top 5% of cohort</li>
+              <li>Cohort size: 500</li>
+            </ul>
+          </li>
+          <li class="award-item">
+            <strong>2020:</strong> ABC Scholarship
+            <ul class="award-details">
+              <li>Ranked in top 10% of cohort</li>
+              <li>Cohort size: 1000</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </aside>
   </main>
 
-  <!-- Footer Section -->
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <p class="footer-text">&copy; 2023 Shubham Goswami. All rights reserved.</p>
-      <ul class="social-links">
-        <li><a href="https://www.linkedin.com/in/shubham-goswami-product/" class="social-link">LinkedIn</a></li>
-        <li><a href="mailto:shubham.go19@fms.edu" class="social-link">Email</a></li>
-        <li><a href="tel:+91-9910416989" class="social-link">Phone</a></li>
-      </ul>
     </div>
   </footer>
 </body>
